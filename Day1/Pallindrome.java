@@ -11,15 +11,19 @@ public class Pallindrome {
         System.out.println("Enter the number : ");
         int num = sc.nextInt();
 
-        int pallindrome = num;
+        int originalNum = num;
+        int reverse = 0;
         
-        int first = num / 100;          
-        int last = num % 10;            
+        while (num != 0) {
+            int remainder = num % 10;
+            reverse = reverse * 10 + remainder;
+            num /= 10;
+        }
         
-        if (first == last) {
-            System.out.println(num + " is a palindrome.");
+        if (originalNum == reverse) {
+            System.out.println(originalNum + " is a palindrome.");
         } else {
-            System.out.println(num + " is NOT a palindrome.");
+            System.out.println(originalNum + " is NOT a palindrome.");
         }
 
         sc.close();
