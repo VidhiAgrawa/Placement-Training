@@ -1,3 +1,5 @@
+package Day1;
+
 import java.util.Scanner;
 
 public class WelcomeNote {
@@ -7,5 +9,7 @@ public class WelcomeNote {
         String userName = sc.nextLine();
         System.out.println("Hello " + userName);
         System.out.println("Welcome to Java Programming");
+
+        sc.close();
     }
 }

@@ -1,3 +1,4 @@
+package Day1;
 import java.util.Scanner;
 
 public class AdultVerify {
@@ -8,6 +9,7 @@ public class AdultVerify {
 
         String result = age >= 18 ? "Adult" : "Minor";
         System.out.println(result);
+        sc.close();
     }
 
     

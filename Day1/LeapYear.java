@@ -1,3 +1,4 @@
+package Day1;
 import java.util.Scanner;
 
 public class LeapYear {
@@ -8,5 +9,7 @@ public class LeapYear {
 
         String result = year % 4 == 0 ? "Leap year" : "Not a leap year";
         System.out.println(result);
+
+        sc.close();
     }
 }

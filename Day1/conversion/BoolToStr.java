@@ -1,4 +1,4 @@
-package conversion;
+package Day1.conversion;
 
 public class BoolToStr {
     public static void main(String[] args) {

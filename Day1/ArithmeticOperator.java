@@ -1,3 +1,4 @@
+package Day1;
 import java.util.Scanner;
 
 public class ArithmeticOperator {
@@ -13,6 +14,6 @@ public class ArithmeticOperator {
         System.out.println("Product of " + num1 + " and " + num2 + " is : " + (num1 * num2));
         System.out.println("Division of " + num1 + " and " + num2 + " is : " + (num1 / num2));
         System.out.println("Modulo of " + num1 + " and " + num2 + " is : " + (num1 % num2));
-        
+        sc.close();
     }
 }

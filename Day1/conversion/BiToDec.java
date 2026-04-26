@@ -1,6 +1,7 @@
-package conversion;
+package Day1.conversion;
 
 import java.util.Scanner;
+
 
 public class BiToDec {
     public static void main(String[] args) {
@@ -10,5 +11,7 @@ public class BiToDec {
         
         int decimal = Integer.parseInt(binary, 2);
         System.out.println(decimal);
+
+        sc.close();
     }
 }

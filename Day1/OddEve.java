@@ -1,3 +1,4 @@
+package Day1;
 import java.util.Scanner;
 
 public class OddEve {
@@ -8,5 +9,7 @@ public class OddEve {
 
         String result = num % 2 == 0 ? "even" : "odd";
         System.out.println(num + " is " + result);
+
+        sc.close();
     }
 }

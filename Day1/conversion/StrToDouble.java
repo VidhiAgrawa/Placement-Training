@@ -1,4 +1,4 @@
-package conversion;
+package Day1.conversion;
 
 import java.util.Scanner;
 
@@ -9,5 +9,7 @@ public class StrToDouble {
         String s = sc.nextLine();
         double d = Double.parseDouble(s);
         System.out.println(d);
+
+        sc.close();
     }
 }

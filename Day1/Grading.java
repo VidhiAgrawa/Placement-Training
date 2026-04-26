@@ -1,3 +1,4 @@
+package Day1;
 import java.util.Scanner;
 
 public class Grading {
@@ -28,5 +29,7 @@ public class Grading {
                 }
             }
         }
+
+        sc.close();
     }
 }

@@ -1,3 +1,4 @@
+package Day1;
 import java.util.Scanner;
 
 public class Pallindrome {
@@ -10,7 +11,7 @@ public class Pallindrome {
         System.out.println("Enter the number : ");
         int num = sc.nextInt();
 
-        int temp = num;
+        int pallindrome = num;
         
         int first = num / 100;          
         int last = num % 10;            
@@ -20,5 +21,7 @@ public class Pallindrome {
         } else {
             System.out.println(num + " is NOT a palindrome.");
         }
+
+        sc.close();
     }
 }

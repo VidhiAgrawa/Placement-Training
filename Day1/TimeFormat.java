@@ -1,3 +1,5 @@
+package Day1;
+
 import java.time.LocalTime; // This holds the time
 import java.time.format.DateTimeFormatter; // This is our "glasses"
 

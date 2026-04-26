@@ -1,6 +1,6 @@
-package conversion;
+package Day1.conversion;
 
-import java.util.Scanner;
+import java.util.*;
 
 public class DecToBi {
     public static void main(String[] args) {
@@ -10,5 +10,7 @@ public class DecToBi {
         
         String binary = Integer.toBinaryString(n);
         System.out.println(binary);
+
+        sc.close();
     }
 }

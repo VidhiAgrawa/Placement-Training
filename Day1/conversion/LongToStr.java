@@ -1,4 +1,4 @@
-package conversion;
+package Day1.conversion;
 
 import java.util.Scanner;
 
@@ -9,5 +9,7 @@ public class LongToStr {
         long l = sc.nextLong();
         String s = Long.toString(l);
         System.out.println(s);
+
+        sc.close();
     }
 }

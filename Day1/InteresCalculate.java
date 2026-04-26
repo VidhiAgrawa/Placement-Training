@@ -1,3 +1,4 @@
+package Day1;
 import java.util.Scanner;
 
 public class InteresCalculate {
@@ -18,6 +19,8 @@ public class InteresCalculate {
 
         simpleInterest(principal, annualRate, time);
         compoundInterest(principal, annualRate, time, n);
+
+        sc.close();
     }
     public static void simpleInterest(int principal, int annualRate, int time){
         int simpleInterest = (principal * annualRate * time) / 100;
