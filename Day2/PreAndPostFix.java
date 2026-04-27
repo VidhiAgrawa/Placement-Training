@@ -1,4 +1,4 @@
-package Day2.WithoutLoop;
+package Day2;
 
 public class PreAndPostFix {
     public static void main(String[] args) {

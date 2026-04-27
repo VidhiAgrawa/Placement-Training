@@ -1,4 +1,4 @@
-package Day2.WithLoop;
+package Day2;
 
 public class SortElement {
     public static void main(String[] args) {

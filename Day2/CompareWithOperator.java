@@ -1,8 +1,8 @@
-package Day2.WithoutLoop;
+package Day2;
 
 import java.util.Scanner;
 
-public class SimpleCal {
+public class CompareWithOperator {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         System.out.println("Enter a number: ");
@@ -13,17 +13,14 @@ public class SimpleCal {
         char op = sc.next().charAt(0);
 
         switch(op){
-            case '+':
-                System.out.println("Result: " + (num1 + num2));
+            case '<':
+                System.out.println("Result: " + (num1 < num2));
                 break;
-            case '-':
-                System.out.println("Result: " + (num1 - num2));
+            case '>':
+                System.out.println("Result: " + (num1 > num2));
                 break;
-            case '*':
-                System.out.println("Result: " + (num1 * num2));
-                break;
-            case '/':
-                System.out.println("Result: " + (num1 / num2));
+            case '=':
+                System.out.println("Result: " + (num1 = num2));
                 break;
             default:
                 System.out.println("Invalid operator");

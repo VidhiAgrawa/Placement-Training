@@ -1,8 +1,8 @@
-package Day2.WithoutLoop;
+package Day2;
 
 import java.util.Scanner;
 
-public class MaxOfNum {
+public class LargestAmongThree {
     public static void main(String[] args) {
         Scanner sc = new Scanner( System.in );
         System.out.println("Enter the value of a : ");
@@ -17,7 +17,7 @@ public class MaxOfNum {
         }else{
             System.out.println("a and b are equal");
         }
-        
+
         sc.close();
     }
 }
