@@ -12,7 +12,7 @@ public class PrimeNumber {
         } else if (num % 2 == 0) {
             isPrime = false;
         } else {
-            for (int i = 3; i <= Math.sqrt(num); i += 2) {
+            for (int i = 3; i <= num/2; i += 2) {
                 if (num % i == 0) {
                     isPrime = false;
                     break;

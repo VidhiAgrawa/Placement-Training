@@ -12,7 +12,7 @@ public class LCMandGCD {
         int num2 = sc.nextInt();
 
         System.out.println("Type 'gcd' for GCD or 'lcm' for LCM: ");
-        String choice = sc.next().toLowerCase(); // Convert to lowercase to be safe
+        String choice = sc.next().toLowerCase();
 
         if (choice.equals("gcd")) {
             System.out.println("The GCD is: " + GCD(num1, num2));
@@ -35,7 +35,6 @@ public class LCMandGCD {
     }
 
     public static int LCM(int a, int b) {
-        // Optimization: Divide first to avoid overflow
         return (a / GCD(a, b)) * b;
     }
 }

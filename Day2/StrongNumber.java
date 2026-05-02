@@ -3,7 +3,7 @@ package Day2;
 public class StrongNumber {
     public static void main(String[] args) {
         int num = 145;
-        int originalNum = num; // Save the value here!
+        int originalNum = num;
         int sum = 0;
 
         while (num > 0) {
@@ -14,7 +14,6 @@ public class StrongNumber {
 
         System.out.println("Sum of Factorials: " + sum);
 
-        // Compare sum with the saved original value
         if (sum == originalNum) { 
             System.out.println("Strong Number");
         } else {
